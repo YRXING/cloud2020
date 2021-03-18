@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-consumer-order #微服务名称
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181 #默认地址为本地2181端口
